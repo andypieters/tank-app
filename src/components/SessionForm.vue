@@ -9,9 +9,9 @@
           <v-card-text>
             <v-form>
               <v-text-field
-                label="Km sgtand"
+                label="Km stand"
                 name="odo"
-                type="tel"
+                type="number"
                 step="0.1"
                 v-model="fuelSession.odo"
               />
